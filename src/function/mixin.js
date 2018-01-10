@@ -1,7 +1,7 @@
 'use strict';
 
-import defaults from './defaults';
-import methodExtendHelper from './method-extend';
+import defaults from '../object/defaults';
+import methodExtendHelper from '../object/extend';
 
 /**
  * Merge method functions.
