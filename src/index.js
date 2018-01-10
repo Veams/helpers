@@ -3,7 +3,7 @@ import forEach from './array/for-each';
 import indexOf from './array/index-of';
 
 // Browser Helpers
-import checkElemenInContext from './browser/check-element-in-context';
+import checkElementInContext from './browser/check-element-in-context';
 import getParamFromUrl from './browser/get-param-from-url';
 import querySelectorArray from './browser/query-selector-array';
 import updateUrl from './browser/update-url';
@@ -42,7 +42,7 @@ export {
 	indexOf,
 
 	// Browser
-	checkElemenInContext,
+	checkElementInContext,
 	getParamFromUrl,
 	querySelectorArray,
 	updateUrl,
