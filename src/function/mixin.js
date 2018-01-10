@@ -1,6 +1,6 @@
 'use strict';
 
-import defaultsHelper from './defaults';
+import defaults from './defaults';
 import methodExtendHelper from './method-extend';
 
 /**
@@ -19,11 +19,11 @@ export default function mixin(from, methods = ['initialize', 'render']) {
 	let to = this.prototype;
 
 	/** Add those methods which exists on `from` but not on `to` to the latter */
-	defaultsHelper(to, from);
+	defaults(to, from);
 
 	/** we do the same for events */
 	if (to.events) {
-		defaultsHelper(to.events, from.events);
+		defaults(to.events, from.events);
 	}
 
 	// Extend to's methods
