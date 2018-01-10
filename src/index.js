@@ -12,6 +12,7 @@ import updateUrl from './browser/update-url';
 import animationEndEvent from './detection/animation-end-event';
 import detectSwipe from './detection/detect-swipe';
 import isInViewport from './detection/is-in-viewport';
+import isOffscreen from './detection/is-offscreen';
 import isTouch from './detection/is-touch';
 import transitionEndEvent from './detection/transition-end-event';
 
@@ -50,6 +51,7 @@ export {
 	animationEndEvent,
 	detectSwipe,
 	isInViewport,
+	isOffscreen,
 	isTouch,
 	transitionEndEvent,
 
