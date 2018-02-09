@@ -3,7 +3,7 @@ import forEach from './array/for-each';
 import indexOf from './array/index-of';
 
 // Browser Helpers
-import checkElemenInContext from './browser/check-element-in-context';
+import checkElementInContext from './browser/check-element-in-context';
 import getParamFromUrl from './browser/get-param-from-url';
 import querySelectorArray from './browser/query-selector-array';
 import updateUrl from './browser/update-url';
@@ -12,6 +12,7 @@ import updateUrl from './browser/update-url';
 import animationEndEvent from './detection/animation-end-event';
 import detectSwipe from './detection/detect-swipe';
 import isInViewport from './detection/is-in-viewport';
+import isOffscreen from './detection/is-offscreen';
 import isTouch from './detection/is-touch';
 import transitionEndEvent from './detection/transition-end-event';
 
@@ -41,7 +42,7 @@ export {
 	indexOf,
 
 	// Browser
-	checkElemenInContext,
+	checkElementInContext,
 	getParamFromUrl,
 	querySelectorArray,
 	updateUrl,
@@ -50,6 +51,7 @@ export {
 	animationEndEvent,
 	detectSwipe,
 	isInViewport,
+	isOffscreen,
 	isTouch,
 	transitionEndEvent,
 

@@ -9,6 +9,7 @@
 ./src/detection/detect-swipe.ts
 ./src/detection/is-in-viewport.ts
 ./src/detection/is-touch.ts
+./src/detection/is-offscreen.ts
 ./src/detection/transition-end-event.ts
 ./src/function/method-extend.ts
 ./src/function/mixin.ts
