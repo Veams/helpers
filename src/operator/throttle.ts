@@ -7,8 +7,8 @@
  * @param {number} wait - number to wait in milliseconds.
  * @param {boolean} immediate - execute function immediately.
  */
-export default function throttle(func, wait, immediate) {
-	let timeout;
+export default function throttle(func: any, wait: number, immediate: boolean): any {
+	let timeout = null;
 
 	return function () {
 		let context = this;

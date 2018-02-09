@@ -7,6 +7,6 @@
  *
  * @return {RegExp}
  */
-export default function regExp(regEx) {
+export default function regExp(regEx: string): any {
 	return new RegExp("(^|\\s+)" + regEx + "(\\s+|$)");
 };

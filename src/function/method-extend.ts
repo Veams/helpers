@@ -7,7 +7,7 @@
  * @param {Object} from - methods which comes from mixin
  * @param {string} methodName - function name
  */
-export default function methodExtend(to, from, methodName) {
+export default function methodExtend(to: object, from: object, methodName: string) {
 	function isUndefined(value) {
 		return typeof value === 'undefined';
 	}

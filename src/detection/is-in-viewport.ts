@@ -8,7 +8,7 @@
  *
  * @return {boolean}
  */
-export default function isInViewport(elem, useBounds) {
+export default function isInViewport(elem: any, useBounds: boolean): boolean {
 	let el = elem;
 	let top = el.offsetTop;
 	let left = el.offsetLeft;

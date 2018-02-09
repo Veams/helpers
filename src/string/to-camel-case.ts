@@ -3,7 +3,7 @@
  *
  * @param {String} str - String which will be camelcased
  */
-export default function toCamelCase(str) {
+export default function toCamelCase(str: string): string {
 	// Lower cases the string
 	return str.toLowerCase()
 	// Replaces any - or _ characters with a space

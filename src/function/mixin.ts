@@ -1,6 +1,6 @@
 'use strict';
 
-import defaultsHelper from './defaults';
+import defaultsHelper from '../object/defaults';
 import methodExtendHelper from './method-extend';
 
 /**

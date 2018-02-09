@@ -8,7 +8,7 @@
  *
  * @return {String|Boolean} - value of parameter
  */
-export default function getParamFromUrl(url, param) {
+export default function getParamFromUrl(url: string, param: string): any {
 	let urlParts = url.split('?');
 	let originalParams = urlParts.length > 1 ? urlParts[1].split('&') : [];
 	let i = 0;

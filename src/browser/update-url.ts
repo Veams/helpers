@@ -8,7 +8,7 @@
  *
  * @return {String} - resulting url
  */
-export default function updateUrl(url, params) {
+export default function updateUrl(url: string, params: object): string {
 	let urlParts = url.split('?');
 	let tmpParams = [];
 	let originalParams = [];

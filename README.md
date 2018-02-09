@@ -6,7 +6,7 @@
 
 # Veams Helpers
 
-The helpers are saved in its own repository and categorized in: 
+The helpers are categorized in: 
  
  - Array
  - Browser
@@ -22,13 +22,13 @@ The helpers are saved in its own repository and categorized in:
 Just import the helper you need: 
 
 ```js
-import transitionEnd from 'veams-helpers/lib/detection/transition-end';
+import transitionEnd from '@veams/helpers/lib/detection/transition-end';
 ```
 
 or the whole library 
 
 ```js
-import * as helpers from 'veams-helpers';
+import * as helpers from '@veams/helpers';
 ```
 
 That's it!
