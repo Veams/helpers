@@ -31,4 +31,6 @@ or the whole library
 import * as helpers from '@veams/helpers';
 ```
 
-That's it!
+**TypeScript is supported as well!**
+
+That's it, have fun!

@@ -4,8 +4,9 @@
 	"description": "Helpers library for Veams.",
 	"main": "lib/index.js",
 	"scripts": {
-		"build": "babel src --out-dir lib",
-		"dev": "babel src --out-dir lib -w"
+		"build": "tsc @files.txt",
+		"dev": "tsc @files.txt --watch",
+		"prepublish": "npm run build"
 	},
 	"devDependencies": {
 		"babel": "6.3.13",
@@ -41,7 +42,5 @@
 		"url": "https://github.com/veams/helpers/issues"
 	},
 	"homepage": "https://veams.org/",
-	"dependencies": {
-		"uniqid": "^4.1.1"
-	}
+	"dependencies": {}
 }
