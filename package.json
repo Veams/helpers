@@ -1,6 +1,6 @@
 {
 	"name": "@veams/helpers",
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"description": "Helpers library for Veams.",
 	"main": "lib/index.js",
 	"scripts": {
@@ -18,12 +18,8 @@
 		"babel-preset-stage-0": "^6.16.0",
 		"babelify": "^7.3.0",
 		"chai": "3.4.1",
-		"eslint": "1.7.2",
-		"eslint-loader": "1.1.0",
 		"mocha": "2.3.4",
-		"ts-loader": "^3.2.0",
 		"typescript": "^2.7.1",
-		"webpack": "^3.10.0",
 		"yargs": "3.32.0"
 	},
 	"repository": {
