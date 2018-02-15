@@ -1,8 +1,9 @@
 {
 	"name": "@veams/helpers",
-	"version": "1.2.1",
+	"version": "1.2.2",
 	"description": "Helpers library for Veams.",
-	"main": "lib/index.js",
+	"main": "./lib/index.js",
+	"types": "./lib/index.d.ts",
 	"scripts": {
 		"build": "tsc @files.txt",
 		"dev": "tsc @files.txt --watch",
@@ -28,9 +29,7 @@
 	},
 	"keywords": [
 		"veams",
-		"veams-plugins",
-		"handlebars",
-		"templates"
+		"veams-plugins"
 	],
 	"author": "Sebastian Fitzner",
 	"license": "MIT",
