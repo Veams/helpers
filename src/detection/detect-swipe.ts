@@ -6,12 +6,12 @@
  * @param {Object} el - element to detect swipes on
  * @param {Number} threshold - threshold for swipe (in px)
  */
-export default function detectSwipe(el: any, threshold: number) {
+export default function detectSwipe(el: any, threshold = 0) {
 	let touchstartX = 0;
 	let touchstartY = 0;
 	let touchendX = 0;
 	let touchendY = 0;
-	let swipeThreshold = threshold || 0;
+	let swipeThreshold = threshold;
 
 	function handleSwipe() {
 		let deltaX = Math.abs(touchstartX - touchendX);

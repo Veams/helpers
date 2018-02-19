@@ -9,9 +9,9 @@
  *
  * @return {boolean}
  */
-export default function checkElementInContext(elem, context) {
+export default function checkElementInContext(elem, context = document) {
 	let currentNode = elem;
-	let contextNode = context || context;
+	let contextNode = context;
 
 	while (currentNode.parentNode) {
 		currentNode = currentNode.parentNode;
