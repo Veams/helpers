@@ -8,10 +8,9 @@
  *
  * @return {Array}
  */
-export default function querySelectorArray(elem, context) {
+export default function querySelectorArray(elem, context = document) {
 	if (!elem) throw new Error('In order to work with querySelectorArray you need to define an element as string!');
 	let el = elem;
-	let customContext = context || document;
 
-	return Array.prototype.slice.call((customContext).querySelectorAll(el));
+	return Array.prototype.slice.call((context).querySelectorAll(el));
 };
