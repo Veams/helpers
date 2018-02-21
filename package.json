@@ -1,6 +1,6 @@
 {
 	"name": "@veams/helpers",
-	"version": "1.2.5",
+	"version": "1.2.6",
 	"description": "Helpers library for Veams.",
 	"main": "./lib/index.js",
 	"types": "./lib/index.d.ts",
@@ -10,18 +10,7 @@
 		"prepublish": "npm run build"
 	},
 	"devDependencies": {
-		"babel": "6.3.13",
-		"babel-core": "6.1.18",
-		"babel-eslint": "5.0.0",
-		"babel-loader": "6.1.0",
-		"babel-plugin-add-module-exports": "^0.1.2",
-		"babel-preset-es2015": "^6.9.0",
-		"babel-preset-stage-0": "^6.16.0",
-		"babelify": "^7.3.0",
-		"chai": "3.4.1",
-		"mocha": "2.3.4",
-		"typescript": "^2.7.1",
-		"yargs": "3.32.0"
+		"typescript": "^2.7.1"
 	},
 	"repository": {
 		"type": "git",
