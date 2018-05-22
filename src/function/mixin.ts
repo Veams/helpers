@@ -11,20 +11,14 @@ import methodExtendHelper from './method-extend';
  */
 export default function mixin(from, methods = ['initialize', 'render']) {
 	if (from === undefined) {
-		console.error(`VeamsHelpers : Mixin :: Mixin not found!`);
+		console.error(`@veams/helpers : Mixin :: Mixin not found!`);
 
 		return;
 	}
-
 	let to = this.prototype;
 
 	/** Add those methods which exists on `from` but not on `to` to the latter */
 	defaultsHelper(to, from);
-
-	/** we do the same for events */
-	if (to.events) {
-		defaultsHelper(to.events, from.events);
-	}
 
 	// Extend to's methods
 	methods.forEach((method) => {
