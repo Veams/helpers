@@ -15,6 +15,7 @@ import isInViewport from './detection/is-in-viewport';
 import isOffscreen from './detection/is-offscreen';
 import isTouch from './detection/is-touch';
 import transitionEndEvent from './detection/transition-end-event';
+import getComputedTranslate from './browser/get-computed-translate';
 
 // Function Helpers
 import methodExtend from './function/method-extend';
@@ -46,6 +47,7 @@ export {
 	getParamFromUrl,
 	querySelectorArray,
 	updateUrl,
+    getComputedTranslate,
 
 	// Detection
 	animationEndEvent,
