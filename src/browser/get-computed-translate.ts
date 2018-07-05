@@ -16,7 +16,7 @@ export default function getComputedTranslate(elem: any, axis: string): number | 
     let idx = {x: 4, y: 5, z: 6};
     let idx3d = {x: 12, y: 13, z: 14};
     let style = getComputedStyle(elem);
-    let transform = style.transform || style.webkitTransform || style.mozTransform;
+    let transform = style.transform || style.webkitTransform;
     let mat = transform.match(/^matrix3d\((.+)\)$/);
 
     if (mat) {
