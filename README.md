@@ -1,7 +1,7 @@
-<p align="center"><img src="https://www.veams.org/img/svg/icons/veams-std.svg"></p>
-<p align="center">Head to the <a href="http://veams.org/">site</a> for detailed instructions.
-<br><br>
-<a href="https://gitter.im/Sebastian-Fitzner/Veams?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge"><img src="https://badges.gitter.im/Sebastian-Fitzner/Veams.svg" alt="Gitter Chat" /></a></p>
+[//]: # ({{#wrapWith "content-section"}})
+
+[//]: #     ({{#wrapWith "grid-row"}})
+[//]: #         ({{#wrapWith "grid-col" colClasses="is-col-mobile-l-8"}})
 
 # Veams Helpers
 
@@ -17,6 +17,8 @@ A simple helpers library categorized in:
  - Utility
  
  **TypeScript is supported as well!**
+ 
+-------------------
  
 ## Installation
 
@@ -36,15 +38,16 @@ yarn add @veams/helpers
 
 Just import the helper you need: 
 
-```js
+``` js
 import transitionEnd from '@veams/helpers/lib/detection/transition-end';
 ```
 
 or the whole library 
 
-```js
+``` js
 import * as helpers from '@veams/helpers';
 ```
+-------------------
 
 ## Helpers in Detail
 
@@ -209,3 +212,8 @@ Return a new RegExp.
 -------------------
 
 That's it, have fun!
+
+[//]: #         ({{/wrapWith}})
+[//]: #     ({{/wrapWith}})
+
+[//]: # ({{/wrapWith}})
