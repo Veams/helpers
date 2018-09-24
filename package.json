@@ -1,6 +1,6 @@
 {
 	"name": "@veams/helpers",
-	"version": "1.3.1",
+	"version": "1.4.0",
 	"description": "Helpers library for Veams.",
 	"main": "./lib/index.js",
 	"types": "./lib/index.d.ts",
