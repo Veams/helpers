@@ -8,9 +8,11 @@
  *
  * @return {Number} - Computed translate value for given axis
  */
-export default function getComputedTranslate(elem: any, axis: string): number | boolean {
+export default function getComputedTranslate(elem: any, axis: string): number {
     if (!window.getComputedStyle) {
-        return false;
+        console.warn('VeamsHelper: getComputedTranslate() - window.getComputedStyle not supported by your browser');
+
+        return NaN;
     }
 
     let idx = {x: 4, y: 5, z: 6};
