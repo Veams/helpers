@@ -1,8 +1,10 @@
 {
 	"name": "@veams/helpers",
-	"version": "1.4.1",
+	"version": "2.0.0",
 	"description": "Helpers library for Veams.",
 	"main": "./lib/index.js",
+	"module": "./lib/index.js",
+	"type": "module",
 	"types": "./lib/index.d.ts",
 	"scripts": {
 		"build": "tsc @files.txt",
@@ -10,7 +12,7 @@
 		"prepublish": "npm run build"
 	},
 	"devDependencies": {
-		"typescript": "^2.7.1"
+		"typescript": "4.8.3"
 	},
 	"repository": {
 		"type": "git",

@@ -1,4 +1,4 @@
---outDir lib --declarationDir lib --declaration --module commonjs
+--outDir lib --declarationDir lib --declaration --module esnext
 ./src/array/for-each.ts
 ./src/array/index-of.ts
 ./src/browser/check-element-in-context.ts
