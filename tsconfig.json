@@ -1,14 +1,25 @@
 {
 	"compilerOptions": {
 		"outDir": "./",
-		"module": "esnext",
-		"target": "esnext",
 		"sourceMap": true,
-		"declaration": true,
 		"noImplicitAny": false,
-		"moduleResolution": "node",
 		"typeRoots": ["node_modules/@types"],
-		"lib": ["es2021", "dom"]
+		"lib": ["es2021", "dom"],
+		"module": "es2022",
+		"target": "es2021",
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"moduleResolution": "node",
+		"allowUnusedLabels": false,
+		"allowUnreachableCode": false,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitOverride": true,
+		"noImplicitReturns": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"importsNotUsedAsValues": "error",
+		"checkJs": true
 	},
 	"include": ["src/**/*.ts"],
 	"exclude": ["node_modules"]

@@ -1,7 +1,7 @@
 'use strict';
 
-import defaultsHelper from '../object/defaults';
-import methodExtendHelper from './method-extend';
+import defaultsHelper from '../object/defaults.js';
+import methodExtendHelper from './method-extend.js';
 
 /**
  * Merge method functions.

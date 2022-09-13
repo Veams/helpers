@@ -1,41 +1,41 @@
 // Array Helpers
-import forEach from './array/for-each';
-import indexOf from './array/index-of';
+import forEach from './array/for-each.js';
+import indexOf from './array/index-of.js';
 
 // Browser Helpers
-import checkElementInContext from './browser/check-element-in-context';
-import getParamFromUrl from './browser/get-param-from-url';
-import querySelectorArray from './browser/query-selector-array';
-import updateUrl from './browser/update-url';
+import checkElementInContext from './browser/check-element-in-context.js';
+import getParamFromUrl from './browser/get-param-from-url.js';
+import querySelectorArray from './browser/query-selector-array.js';
+import updateUrl from './browser/update-url.js';
 
 // Detection Helpers
-import animationEndEvent from './detection/animation-end-event';
-import detectSwipe from './detection/detect-swipe';
-import isInViewport from './detection/is-in-viewport';
-import isOffscreen from './detection/is-offscreen';
-import isTouch from './detection/is-touch';
-import transitionEndEvent from './detection/transition-end-event';
-import getComputedTranslate from './browser/get-computed-translate';
+import animationEndEvent from './detection/animation-end-event.js';
+import detectSwipe from './detection/detect-swipe.js';
+import isInViewport from './detection/is-in-viewport.js';
+import isOffscreen from './detection/is-offscreen.js';
+import isTouch from './detection/is-touch.js';
+import transitionEndEvent from './detection/transition-end-event.js';
+import getComputedTranslate from './browser/get-computed-translate.js';
 
 // Function Helpers
-import methodExtend from './function/method-extend';
-import mixin from './function/mixin';
+import methodExtend from './function/method-extend.js';
+import mixin from './function/mixin.js';
 
 // Object Helpers
-import defaults from './object/defaults';
-import extend from './object/extend';
+import defaults from './object/defaults.js';
+import extend from './object/extend.js';
 
 // Operator Helpers
-import throttle from './operator/throttle';
+import throttle from './operator/throttle.js';
 
 // String Helpers
-import capitalizeFirstLetter from './string/capitalize-first-letter';
-import hyphenate from './string/hyphenate';
-import toCamelCase from './string/to-camel-case';
+import capitalizeFirstLetter from './string/capitalize-first-letter.js';
+import hyphenate from './string/hyphenate.js';
+import toCamelCase from './string/to-camel-case.js';
 
 // Utility Helpers
-import makeId from './utility/make-id';
-import regExp from './utility/reg-exp';
+import makeId from './utility/make-id.js';
+import regExp from './utility/reg-exp.js';
 
 export {
 	// Array

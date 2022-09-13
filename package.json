@@ -1,14 +1,21 @@
 {
 	"name": "@veams/helpers",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"description": "Helpers library for Veams.",
-	"main": "./lib/index.js",
-	"module": "./lib/index.js",
+	"main": "./lib/cjs/index.js",
+	"module": "./lib/esm/index.js",
+	"types": "./lib/esm/index.d.ts",
 	"type": "module",
-	"types": "./lib/index.d.ts",
+	"exports": {
+		"import": "./lib/esm/index.js",
+		"require": "./lib/cjs/index.js"
+	},
 	"scripts": {
-		"build": "tsc @files.txt",
-		"dev": "tsc @files.txt --watch",
+		"clean": "rm -rf ./lib",
+		"build:ts:esm": "tsc --project tsconfig.json --outDir lib/esm --declarationDir lib/esm --declaration --module esnext",
+		"build:ts:cjs": "tsc --project tsconfig.json --outDir lib/cjs --declaration false --module commonjs --moduleResolution node16",
+		"build": "npm run build:ts:esm && npm run build:ts:cjs",
+		"dev": "npm run build:ts:esm --watch",
 		"prepublish": "npm run build"
 	},
 	"devDependencies": {
